@@ -1,0 +1,68 @@
+This is my sample code
+This is for learning Git
+https://gitexercises.fracz.com/ 
+
+
+cd
+CD << PATH FOR THE FOLDER >>
+cd /d E:\
+
+
+
+Clone from git folder :
+-----------------------
+
+
+>> install git in local system.
+>> check if git isinstalled or not using below command
+
+open command prompt and do the following
+>> git --version
+
+set user name and email. User name should match the git user name.
+>> git config --global user.name "KaveryRadhakrishnan"
+>> git config --global user.email "kavery.radhakrishnan@gmail.com"
+
+
+then close the command prompt and create a folder in local  and open visual studio
+
+>> Create new repository in github
+>> Create a new file test1.txt and write something on it and give commit changes with commit message.
+>> we will be able to see the main branch in the new repository.
+>> install git , visual studio
+>> open command prompt
+>> check if git has been installed in your system by giving git--version command
+>> then set up the user.name and user.email in cmd itself
+
+>> git config --global user.name "KaveryRadhakrishnan"
+>> git config -- global user.email "kavery.radhakrishnan@gmail.com"
+
+>> close the command prompt
+>> Create a folder in your local system anywhere.
+>> open visual studio
+>> under file open the new folder that you have created in your local.
+>> under terminal click new terminal
+>> we need to clone the new repository created in the git in your visual studio 
+
+>> git clone https://github.com/KaveryRadhakrishnan/learn_git.git
+>> cd learn_git
+
+>> if you check in the local folder , the .git hidden file will be created.
+>> we will be able to see the file created inside git in our visual studio
+
+>> now we need to create a new file in the visual studio and try to push that file inside git.
+
+>> create new file test2.txt in visual studio inside learn_git folder
+>> we can see the status of that file in the visual studio terminal
+
+>> git status 
+
+we can see all the untracked files 
+
+ 
+
+
+
+
+
+
